@@ -244,7 +244,6 @@ section,
 .hero img {
   position: absolute;
   inset: 0;
-  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -400,9 +399,6 @@ section,
   color: #4e4e4e;
 }
 
-.skills .icon {
-  background-color: #ffbf00;
-}
 
 .section-title2 {
   text-align: center;
@@ -740,7 +736,7 @@ section,
   z-index: 999;
   opacity: 0.5;
   bottom: 10px;
-  animation: animate 4s linear infinite !important;
+  animation: animate 4s linear infinite;
 }
 
 .wave#wave3 {
